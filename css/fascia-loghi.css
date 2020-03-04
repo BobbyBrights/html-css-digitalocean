@@ -1,0 +1,99 @@
+
+.fascia-loghi {
+  text-align: center;
+  background-color: #f3f5f9;
+  padding: 60px 0px;
+}
+.colonna{
+  height: 120px;
+}
+.logo{
+  width: 100%;
+  height: 100%;
+}
+#doker{
+  background: url(../img/logo-1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#gitlab{
+  background: url(../img/logo-2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#slack{
+  background: url(../img/logo-3.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#ashi{
+  background: url(../img/logo-4.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#wework{
+  background: url(../img/logo-5.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#splunk{
+  background: url(../img/logo-6.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* MAXI DESKTOP -------------------------------- */
+@media screen and (min-width: 1200px){
+
+
+}
+
+/* DESKTOP -------------------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px ) {
+
+
+}
+
+/* TABLET --------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  #gitlab{
+    background: url(../img/logo-2.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #splunk{
+    background: url(../img/logo-6.png);
+    background-size: 60% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+/* MOBILE --------------------------------- */
+@media screen and (max-width: 767px) {
+
+  #gitlab{
+    background: url(../img/logo-2.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #splunk{
+    background: url(../img/logo-6.png);
+    background-size: 60% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+}
