@@ -1,0 +1,86 @@
+.jumbotron{
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+}
+.jumbotron p{
+  color: #fff;
+  opacity: .8;
+}
+
+.modulo{
+  height: 100%;
+  width: 100%;
+  background:white;
+  border-radius: 3px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.modulo h3{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+.modulo .blu{
+  color:#0248ff;
+}
+.modulo input{
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #f1f1f1;
+  padding: 10px 5px;
+  margin: 5px 0px;
+}
+.modulo button{
+  width: 100%;
+  padding: 5px 5px;
+  margin: 5px 0px;
+  border-radius:5px;
+}
+.modulo p{
+  font-size:14px;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+}
+
+.modulo .create{
+  background-color: #0248ff;
+  color: white;
+  border: 1px solid #0248ff;
+}
+.modulo .signup{
+  border: 0px;
+  background: url(../img/g.png);
+  background-size: 20px 20px;
+  background-position: 7px;
+  box-shadow: 2px 2px 5px 1px #88888870;
+  background-repeat: no-repeat;
+}
+
+
+
+/* MAXI DESKTOP -------------------------------- */
+@media screen and (min-width: 1200px){
+
+
+}
+
+/* DESKTOP -------------------------------- */
+@media screen and (min-width: 992px) and (max-width:1199px ) {
+
+
+}
+
+/* TABLET --------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/* MOBILE --------------------------------- */
+@media screen and (max-width: 767px) {
+
+
+}

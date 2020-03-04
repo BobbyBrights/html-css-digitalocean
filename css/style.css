@@ -1,32 +1,28 @@
 /* IMPORT FONTS */
 @font-face {
     font-family: 'Sailec';
-    src: url('fonts/Sailec-Light.otf');
-    font-weight: 300;
-    font-style: normal;
+    src: url('../fonts/Sailec-Light.ttf');
+    font-weight: lighter;
 }
 @font-face {
     font-family: 'Sailec';
-    src: url('fonts/Sailec-Medium.otf');
-    font-weight: normal;
-    font-style: normal;
+    src: url('../fonts/Sailec-Medium.ttf');
 }
 @font-face {
     font-family: 'Sailec';
-    src: url('fonts/Sailec-Bold.otf');
+    src: url('../fonts/Sailec-Bold.ttf');
     font-weight: bold;
-    font-style: normal;
 }
 
 /* IMPOSTAZIONI BASE --------------------------------------- */
 body{
-  font-family: 'Sailec',"Helvetica Neue",Helvetica,Arial;
-  font-weight: normal;
+  font-family: 'Sailec';
   background: #fff;
   color: rgba(3,27,78,.7);
 }
 h1{
   font-weight: bold;
+  color: white !important;
 }
 
 
