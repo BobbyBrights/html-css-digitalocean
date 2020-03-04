@@ -3,6 +3,13 @@
   text-align: center;
   background-color: #f3f5f9;
   padding: 60px 0px;
+  font-weight: bold;
+}
+.fascia-loghi h5{
+  font-weight: bold;
+}
+.loghi{
+  margin: 25px 0px;
 }
 .colonna{
   height: 120px;
