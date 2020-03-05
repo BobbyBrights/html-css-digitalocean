@@ -53,6 +53,9 @@ h2{
 /* TABLET --------------------------------- */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+  h1{
+    font-size: 45px !important;
+  }
   h2{
     margin-top: 60px;
   }
