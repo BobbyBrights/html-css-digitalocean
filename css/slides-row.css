@@ -37,6 +37,11 @@
   height: 25%;
 }
 
+/* ROW-ICONS -------------------------- */
+.row-icons{
+  margin: 40px 0px;
+}
+
 /*MAXI DESKTOP -------------------------------- */
 @media screen and (min-width: 1200px){
 
