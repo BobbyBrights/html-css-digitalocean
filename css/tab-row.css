@@ -1,24 +1,29 @@
 
-.titoli-links h4{
+.titoli-links{
   font-size: 16px;
   padding: 18px 28px;
   margin: 0px;
   color: rgba(3,27,78,.5);
   border-left: 2px solid #e5e8ed;
 }
-.titoli-links h4:hover{
-  color: black;
-}
 .titoli-links:hover{
-  text-decoration: none;
-}
-.titoli-links h4:focus{
-  border-left: 2px solid #337ab7;
+  color: black;
   text-decoration: none;
 }
 .titoli-links:focus{
   border-left: 2px solid #337ab7;
   text-decoration: none;
+}
+.titoli-links-container{
+  padding: 18px 0px;
+  margin: 0px;
+}
+
+.row-inside-tab img{
+  width: 40px;
+}
+.quadrati {
+  padding: 10px;
 }
 
 
