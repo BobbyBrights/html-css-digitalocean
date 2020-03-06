@@ -1,0 +1,43 @@
+
+footer{
+  background-color: #010e28;
+  color: hsla(0,0%,100%,.5);
+  font-size: 14px;
+  padding-bottom: 96px;
+  padding-top: 60px;
+}
+footer ul{
+  list-style-type: none;
+  padding: 0px;
+}
+footer li{
+  cursor: pointer;
+  margin-top: .5em;
+}
+footer li:hover{
+  color: white;
+}
+footer h5{
+  color: white;
+  font-size: 14px;
+  padding-bottom: .5em;
+  padding-top: 20px;
+}
+footer img{
+  width: 42px;
+  padding-top: 15px;
+}
+
+.copyright{
+  font-size: 12px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+.proudly{
+  font-size: 11px;
+  color: grey;
+}
+.fab{
+  font-size: 20px;
+  padding: 5px;
+}
